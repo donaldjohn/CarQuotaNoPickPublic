@@ -1,0 +1,5 @@
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\CarQuotaNoPickPublic.exe
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\CarQuotaNoPickPublic.pdb
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\Debug\CarQuotaNoPickPublic.exe
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\Debug\CarQuotaNoPickPublic.pdb

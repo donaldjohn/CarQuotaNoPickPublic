@@ -1,0 +1,10 @@
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\CarQuotaNoPickPublic.exe.config
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\CarQuotaNoPickPublic.exe
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\CarQuotaNoPickPublic.pdb
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\x86\Debug\CarQuotaNoPickPublic.exe
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\x86\Debug\CarQuotaNoPickPublic.pdb
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\x86\Debug\CarQuotaNoPickPublic.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Source\Repos\CarQuotaNoPickPublic\bin\Debug\CarQuotaNoPickPublic.exe.config
+C:\Users\Paul\Source\Repos\CarQuotaNoPickPublic\obj\x86\Debug\CarQuotaNoPickPublic.exe
+C:\Users\Paul\Source\Repos\CarQuotaNoPickPublic\obj\x86\Debug\CarQuotaNoPickPublic.pdb

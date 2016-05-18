@@ -1,0 +1,10 @@
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\CarQuotaNoPickPublic.exe
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\CarQuotaNoPickPublic.pdb
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\x86\Release\CarQuotaNoPickPublic.exe
+E:\Interests\bjCar\CarQuotaNoPickPublic\obj\x86\Release\CarQuotaNoPickPublic.pdb
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\CarQuotaNoPickPublic.exe.config
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\System.Data.dll
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\System.dll
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\System.Drawing.dll
+E:\Interests\bjCar\CarQuotaNoPickPublic\bin\Release\System.Windows.Forms.dll

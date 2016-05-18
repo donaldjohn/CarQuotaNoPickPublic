@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8BE3221C-C65D-4425-910A-939A4447A572}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>CarQuotaNoPickPublic</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CarQuotaNoPickPublic.Program</StartupObject>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="CarQuotaNoPickPublic\CSVFileHelper.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="CarQuotaNoPickPublic\PersonRandomPick.cs" />
+    <Compile Include="CarQuotaNoPickPublic\AllRandomPick.cs" />
+    <Compile Include="CarQuotaNoPickPublic\Properties\Settings.cs" />
+    <Compile Include="CarQuotaNoPickPublic\PickNumberDataSet.cs" />
+    <Compile Include="CarQuotaNoPickPublic\PersonNumberDataSet.cs" />
+    <Compile Include="CarQuotaNoPickPublic\FrmMainC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarQuotaNoPickPublic\FrmPoolNO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarQuotaNoPickPublic\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarQuotaNoPickPublic\Program.cs" />
+    <Compile Include="CarQuotaNoPickPublic\Properties\Resources.cs" />
+    <Compile Include="CarQuotaNoPickPublic\ApplyNumberCheck.cs" />
+    <Compile Include="CarQuotaNoPickPublic\ApplynumberArray.cs" />
+    <Compile Include="CarQuotaNoPickPublic\FrmMainB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarQuotaNoPickPublic\SharpZipHepler.cs" />
+    <Compile Include="CarQuotaNoPickPublic\MD5HashCodeHeler.cs" />
+    <Compile Include="CarQuotaNoPickPublic\AllRandomPickData.cs" />
+    <EmbeddedResource Include="CarQuotaNoPickPublic.FrmPoolNO.resources" />
+    <EmbeddedResource Include="CarQuotaNoPickPublic.FrmMainC.resources" />
+    <EmbeddedResource Include="CarQuotaNoPickPublic.Properties.Resources.resources" />
+    <EmbeddedResource Include="CarQuotaNoPickPublic.FrmMain.resources" />
+    <EmbeddedResource Include="CarQuotaNoPickPublic.FrmMainB.resources" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+</Project>
